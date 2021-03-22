@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/check_img"
+        android:visibility="invisible"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignEnd="@+id/img_view"
+        android:layout_alignRight="@+id/img_view"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/ic_check"
+        android:layout_marginRight="0dp" />
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_folder"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"/>
+    <TextView
+        android:id="@+id/name_img"
+        android:layout_centerHorizontal="true"
+        android:text="Name folder"
+        android:textColor="#000"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_below="@id/img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

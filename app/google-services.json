@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "377863574573",
+    "project_id": "video-to-photo-aad83",
+    "storage_bucket": "video-to-photo-aad83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377863574573:android:f30fa757dd5e7c1dec54a4",
+        "android_client_info": {
+          "package_name": "com.example.videotophoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377863574573-mk8615ljd9oa3maha8l64t3e1qr0999t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUFLf_RgSWI2EePV1TG2snGD-dvc7-jKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377863574573-mk8615ljd9oa3maha8l64t3e1qr0999t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
